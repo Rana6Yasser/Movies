@@ -1,0 +1,75 @@
+body {
+    background-color: tan;
+}
+
+header:hover {
+    background-color: rgb(199, 144, 43);
+}
+
+header h1 {
+    text-align: center;
+    border: 9px outset wheat;
+    border-radius: 3px;
+}
+
+
+main {
+    background-color: wheat;
+    padding: 10px 10px;
+    border: 10px outset tan;
+    margin-left: 0px;
+
+}
+
+.Comedy img {
+    background-color: tan;
+    padding: 1px 1px;
+    border: 1px outset tan;
+    border-radius: 90px;
+    margin-left: 35px;
+}
+
+.Action img {
+    background-color: tan;
+    padding: 1px 1px;
+    border: 1px outset tan;
+    border-radius: 90px;
+    margin-left: 35px;
+}
+
+.Skip {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+    z-index: 9999;
+    transition: top 0.3s;
+}
+
+.Skip:focus {
+    top: 10px;
+}
+
+.Comedy img:nth-child(even) {
+    border-radius: 50%;
+}
+
+.Action img:nth-child(even) {
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 265px;
+    font-size: large;
+}
+
+.Comedy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
